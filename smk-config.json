@@ -1,0 +1,428 @@
+{
+    "name": "smk-moh-cymh",
+    "viewer": {
+        "type": "leaflet",
+        "location": {
+            "center": [
+                -125.5547914708973,
+                54.08649244578677
+            ],
+            "extent": [
+                -136.54335221744125,
+                48.052786419079695,
+                -114.56623072435335,
+                59.354780157802274
+            ],
+            "zoom": 5.668733613443237
+        },
+        "baseMap": "Streets",
+        "esriApiKey": "AAPK0d8c6a57157e4f97868111ba0fcded7fAMftqadfS1sw-QNOKKWdo0yNryPys8A-bN9lyZB3ngSpxK0ui9YQm53UgQuuzQaJ",
+        "device": "auto"
+    },
+    "layers": [
+        {
+            "type": "vector",
+            "id": "mental-health-and-substance-use-support",
+            "title": "Mental Health and Substance Use Services",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": "0.85",
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": "SV_NAME",
+            "attributes": [
+                {
+                    "id": "mhsu-guid",
+                    "name": "MHSU_GUID",
+                    "title": "MHSU_GUID",
+                    "visible": false
+                },
+                {
+                    "id": "gpce-taxonomy-classification",
+                    "name": "GPCE_TAXONOMY_CLASSIFICATION",
+                    "title": "GPCE_TAXONOMY_CLASSIFICATION",
+                    "visible": true
+                },
+                {
+                    "id": "audience",
+                    "name": "AUDIENCE",
+                    "title": "AUDIENCE",
+                    "visible": true
+                },
+                {
+                    "id": "students",
+                    "name": "STUDENTS",
+                    "title": "STUDENTS",
+                    "visible": true
+                },
+                {
+                    "id": "taxonomy-name",
+                    "name": "TAXONOMY_NAME",
+                    "title": "TAXONOMY_NAME",
+                    "visible": true
+                },
+                {
+                    "id": "rg-name",
+                    "name": "RG_NAME",
+                    "title": "RG_NAME",
+                    "visible": true
+                },
+                {
+                    "id": "sv-name",
+                    "name": "SV_NAME",
+                    "title": "SV_NAME",
+                    "visible": true
+                },
+                {
+                    "id": "sv-description",
+                    "name": "SV_DESCRIPTION",
+                    "title": "SV_DESCRIPTION",
+                    "visible": true
+                },
+                {
+                    "id": "phone-number",
+                    "name": "PHONE_NUMBER",
+                    "title": "PHONE_NUMBER",
+                    "visible": true
+                },
+                {
+                    "id": "website",
+                    "name": "WEBSITE",
+                    "title": "WEBSITE",
+                    "visible": true
+                },
+                {
+                    "id": "email-address",
+                    "name": "EMAIL_ADDRESS",
+                    "title": "EMAIL_ADDRESS",
+                    "visible": true
+                },
+                {
+                    "id": "wheelchair-accessible",
+                    "name": "WHEELCHAIR_ACCESSIBLE",
+                    "title": "WHEELCHAIR_ACCESSIBLE",
+                    "visible": true
+                },
+                {
+                    "id": "language",
+                    "name": "LANGUAGE",
+                    "title": "LANGUAGE",
+                    "visible": true
+                },
+                {
+                    "id": "hours",
+                    "name": "HOURS",
+                    "title": "HOURS",
+                    "visible": true
+                },
+                {
+                    "id": "street-number",
+                    "name": "STREET_NUMBER",
+                    "title": "STREET_NUMBER",
+                    "visible": true
+                },
+                {
+                    "id": "city",
+                    "name": "CITY",
+                    "title": "CITY",
+                    "visible": true
+                },
+                {
+                    "id": "province",
+                    "name": "PROVINCE",
+                    "title": "PROVINCE",
+                    "visible": true
+                },
+                {
+                    "id": "postal-code",
+                    "name": "POSTAL_CODE",
+                    "title": "POSTAL_CODE",
+                    "visible": true
+                },
+                {
+                    "id": "latitude",
+                    "name": "LATITUDE",
+                    "title": "LATITUDE",
+                    "visible": false
+                },
+                {
+                    "id": "longitude",
+                    "name": "LONGITUDE",
+                    "title": "LONGITUDE",
+                    "visible": false
+                },
+                {
+                    "id": "mhsu-specific-terms-enhanced-search",
+                    "name": "MHSU_SPECIFIC_TERMS_ENHANCED_SEARCH",
+                    "title": "MHSU_SPECIFIC_TERMS_ENHANCED_SEARCH",
+                    "visible": true
+                },
+                {
+                    "id": "keyword-search-text",
+                    "name": "KEYWORD_SEARCH_TEXT",
+                    "title": "KEYWORD_SEARCH_TEXT",
+                    "visible": true
+                }
+            ],
+            "queries": [
+                {
+                    "id": "mental-health-and-substance-use-support-query-0",
+                    "title": "Search for Services",
+                    "description": "Find a service provider near you.",
+                    "parameters": [
+                        {
+                            "id": "parameter-0",
+                            "title": "Search for:",
+                            "type": "input"
+                        }
+                    ],
+                    "predicate": {
+                        "operator": "or",
+                        "arguments": [
+                            {
+                                "operator": "contains",
+                                "arguments": [
+                                    {
+                                        "operand": "attribute",
+                                        "name": "KEYWORD_SEARCH_TEXT"
+                                    },
+                                    {
+                                        "operand": "parameter",
+                                        "id": "parameter-0"
+                                    }
+                                ]
+                            },
+                            {
+                                "operator": "contains",
+                                "arguments": [
+                                    {
+                                        "operand": "attribute",
+                                        "name": "TAXONOMY_NAME"
+                                    },
+                                    {
+                                        "operand": "parameter",
+                                        "id": "parameter-0"
+                                    }
+                                ]
+                            },
+                            {
+                                "operator": "contains",
+                                "arguments": [
+                                    {
+                                        "operand": "attribute",
+                                        "name": "SV_NAME"
+                                    },
+                                    {
+                                        "operand": "parameter",
+                                        "id": "parameter-0"
+                                    }
+                                ]
+                            },
+                            {
+                                "operator": "contains",
+                                "arguments": [
+                                    {
+                                        "operand": "attribute",
+                                        "name": "MHSU_SPECIFIC_TERMS_ENHANCED_SEARCH"
+                                    },
+                                    {
+                                        "operand": "parameter",
+                                        "id": "parameter-0"
+                                    }
+                                ]
+                            },
+                            {
+                                "operator": "contains",
+                                "arguments": [
+                                    {
+                                        "operand": "attribute",
+                                        "name": "RG_NAME"
+                                    },
+                                    {
+                                        "operand": "parameter",
+                                        "id": "parameter-0"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "useClustering": true,
+            "dataUrl": "https://catalogue.data.gov.bc.ca/dataset/2e469ff2-dadb-45ea-af9d-f5683a4b9465/resource/6baaf199-0106-4dd6-8e2f-e24d629a81c6/download/mental_health.geojson",
+            "legend": {
+                "line": false,
+                "point": true
+            },
+            "style": {
+                "strokeColor": "#3388ff",
+                "strokeOpacity": 1,
+                "strokeWidth": 3,
+                "strokeCap": "round",
+                "strokeJoin": "round",
+                "fill": false,
+                "fillColor": "#3388ff",
+                "fillOpacity": 0.2,
+                "stroke": false,
+                "marker": true,
+                "markerUrl": "assets/marker_yellow.png",
+                "markerSize": [
+                    25,
+                    40
+                ],
+                "markerOffset": [
+                    12.5,
+                    40
+                ]
+            },
+            "legends": null,
+            "useHeatmap": false,
+            "useRaw": false,
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/2e469ff2-dadb-45ea-af9d-f5683a4b9465",
+            "popupTemplate": "<div>\n    <div>\n        <table border=\"0\" table-layout=\"fixed\">\n            <tbody>\n                <tr>\n                    <td colspan=\"2\"><b>{{feature.title}}</b></td>\n                </tr>\n                <tr>\n                    <td colspan=\"2\">&nbsp;</td>\n                </tr>\n                <template v-if=\"feature.properties['SV_NAME'] !== null && feature.properties['SV_NAME'] !== undefined && feature.properties['SV_NAME'] !== ''\">\n                    <tr>\n                        <td><b>Service Area:</b></td>\n                        <td>{{feature.properties['SV_NAME']}}</td>\n                    </tr>\n                    <tr>\n                        <td colspan=\"2\">&nbsp;</td>\n                    </tr>\n                </template>\n                <template v-if=\"feature.properties['TAXONOMY_NAME'] !== null && feature.properties['TAXONOMY_NAME'] !== undefined && feature.properties['TAXONOMY_NAME'] !== ''\">\n                    <tr v-if=\"feature.properties['TAXONOMY_NAME'] !== null\">\n                        <td><b>Topics:</b></td>\n                        <td>{{feature.properties['TAXONOMY_NAME']}}</td>\n                    </tr>\n                    <tr>\n                        <td colspan=\"2\">&nbsp;</td>\n                    </tr>\n                </template>\n                <template v-if=\"feature.properties['SV_DESCRIPTION'] !== null && feature.properties['SV_DESCRIPTION'] !== undefined && feature.properties['SV_DESCRIPTION'] !== ''\">\n                    <tr v-if=\"feature.properties['SV_DESCRIPTION'] !== null\">\n                        <td colspan=\"2\">{{feature.properties['SV_DESCRIPTION']}}</td>\n                    </tr>\n                </template>\n                <template v-if=\"feature.properties['STREET_NUMBER'] !== null && feature.properties['STREET_NUMBER'] !== undefined && feature.properties['STREET_NUMBER'] !== ''\">\n                <tr>\n                    <td><b>Address:</b></td>\n                    <td>{{feature.properties['STREET_NUMBER']}}<br>{{feature.properties['CITY']}}, BC<br>{{feature.properties['POSTAL_CODE']}}</td>\n                </tr>\n</template>\n                <tr>\n                    <td colspan=\"2\">&nbsp;</td>\n                </tr>\n                <template v-if=\"feature.properties['HOURS'] !== null\" && v-if=\"feature.properties['HOURS'] !== undefined\" && v-if=\"feature.properties['HOURS'] !== ''\">\n                    <tr>\n                        <td><b>Hours:</b></td>\n                        <td>{{feature.properties['HOURS']}}</td>\n                    </tr>\n                    <tr>\n                        <td colspan=\"2\">&nbsp;</td>\n                    </tr>\n                </template>\n                <tr v-if=\"feature.properties['WHEELCHAIR_ACCESSIBLE'] !== null\">\n                    <td><b>Wheelchair Access:</b></td>\n                    <td>{{feature.properties['WHEELCHAIR_ACCESSIBLE']}}</td>\n                </tr>\n                <tr>\n                    <td colspan=\"2\">&nbsp;</td>\n                </tr>\n                <tr v-if=\"feature.properties['PHONE_NUMBER'] !== null\">\n                    <td><b>Phone:</b></td>\n                    <td>{{feature.properties['PHONE_NUMBER']}}</td>\n                </tr>\n                <tr>\n                    <td colspan=\"2\">&nbsp;</td>\n                </tr>\n                <template v-if=\"feature.properties['EMAIL_ADDRESS'] !== null\" && v-if=\"feature.properties['EMAIL_ADDRESS'] !== undefined\" && v-if=\"feature.properties['EMAIL_ADDRESS'] !== ''\">\n                    <tr v-if=\"feature.properties['EMAIL_ADDRESS'] !== null\">\n                        <td><b>Email:</b></td>\n                        <td>{{feature.properties['EMAIL_ADDRESS']}}</td>\n                    </tr>\n                    <tr>\n                        <td colspan=\"2\">&nbsp;</td>\n                    </tr>\n                </template>\n                <template v-if=\"feature.properties['WEBSITE'] !== null && feature.properties['WEBSITE'] !== undefined && feature.properties['WEBSITE'] !==''\">\n                    <tr>\n                        <td colspan=\"2\"><a target=\"_blank\" v-bind:href=\"feature.properties['WEBSITE']\">Visit Service Website</a></td>\n                    </tr>\n                </template>\n            </tbody>\n        </table>\n    </div>\n</div>",
+            "scaleMax": 691
+        }
+    ],
+    "tools": [
+        {
+            "type": "toolbar",
+            "enabled": true
+        },
+        {
+            "type": "list-menu",
+            "enabled": true,
+            "title": "Child and Youth Mental Health Services"
+        },
+        {
+            "type": "pan",
+            "enabled": true
+        },
+        {
+            "mouseWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "control": true,
+            "type": "zoom",
+            "enabled": true
+        },
+        {
+            "order": 1,
+            "position": "list-menu",
+            "icon": "help",
+            "title": "About Child and Youth Mental Health Services",
+            "content": "<p>The Child and Youth Mental Health Services Map provides listings for child and youth services provided by the provincial government, provincial health authorities, and non-profit agencies across British Columbia.</p>",
+            "type": "about",
+            "enabled": true
+        },
+        {
+            "type": "layers",
+            "enabled": true
+        },
+        {
+            "type": "baseMaps",
+            "enabled": false,
+            "position": "list-menu"
+        },
+        {
+            "order": "2",
+            "position": "list-menu",
+            "icon": "info_outline",
+            "title": "Find Services Near You",
+            "command": {
+                "select": false,
+                "radius": false,
+                "radiusUnit": null,
+                "nearBy": true,
+                "attributeMode": false
+            },
+            "radius": "100",
+            "radiusUnit": "px",
+            "type": "identify",
+            "enabled": true,
+            "showPanel": true,
+            "showWidget": true,
+            "style": {
+                "strokeWidth": 1,
+                "strokeStyle": "1, 1",
+                "strokeColor": "#000000",
+                "strokeOpacity": 0.8,
+                "fillColor": "#000000",
+                "fillOpacity": 0.5,
+                "markerSize": [
+                    20,
+                    20
+                ],
+                "markerOffset": [
+                    10,
+                    0
+                ]
+            }
+        },
+        {
+            "order": 2,
+            "position": "toolbar",
+            "icon": "search",
+            "title": "Search for Location",
+            "showPanel": true,
+            "showLocation": false,
+            "command": {
+                "identify": true,
+                "measure": true,
+                "directions": true
+            },
+            "type": "search",
+            "enabled": true
+        },
+        {
+            "type": "coordinate",
+            "enabled": false
+        },
+        {
+            "type": "measure",
+            "enabled": false,
+            "position": "list-menu"
+        },
+        {
+            "type": "markup",
+            "enabled": false
+        },
+        {
+            "type": "scale",
+            "enabled": false
+        },
+        {
+            "type": "minimap",
+            "enabled": false
+        },
+        {
+            "type": "directions",
+            "enabled": false
+        },
+        {
+            "showHeader": false,
+            "type": "location",
+            "enabled": false
+        },
+        {
+            "type": "select",
+            "enabled": false,
+            "position": "list-menu"
+        },
+        {
+            "order": "3",
+            "within": false,
+            "command": {
+                "within": true,
+                "select": false
+            },
+            "type": "query",
+            "instance": "mental-health-and-substance-use-support--mental-health-and-substance-use-support-query-0",
+            "enabled": true,
+            "title": "Search for Providers",
+            "position": "list-menu"
+        }
+    ],
+    "version": "1.1.10",
+    "createdBy": "DataBC Map Team",
+    "createdDate": "2023-05-01T18:25:20.098Z"
+}

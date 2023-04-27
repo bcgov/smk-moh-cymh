@@ -1,0 +1,13 @@
+{
+    "name": "smk-moh-cymk",
+    "version": "0.0.1",
+    "description": "Child and Youth Mental Health Services",
+    "author": "BC Data Map Team",
+    "dependencies": {
+        "@bcgov/smk": "1.1.5",
+        "http-server": "^14.1.1"
+    },
+    "scripts": {
+        "view": "http-server -o -c-1"
+    }
+}

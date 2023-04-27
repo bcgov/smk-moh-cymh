@@ -1,0 +1,143 @@
+{
+    "layers": [
+        {
+            "title": "Mental  Health and Substance Use Support",
+            "dataUrl": "https://catalogue.data.gov.bc.ca/dataset/2e469ff2-dadb-45ea-af9d-f5683a4b9465/resource/6baaf199-0106-4dd6-8e2f-e24d629a81c6/download/mental_health.geojson",
+            "id": "mental-health-and-substance-use-support",
+            "attributes": [
+                {
+                    "id": "mhsu-guid",
+                    "name": "MHSU_GUID",
+                    "title": "MHSU_GUID",
+                    "visible": true
+                },
+                {
+                    "id": "gpce-taxonomy-classification",
+                    "name": "GPCE_TAXONOMY_CLASSIFICATION",
+                    "title": "GPCE_TAXONOMY_CLASSIFICATION",
+                    "visible": true
+                },
+                {
+                    "id": "audience",
+                    "name": "AUDIENCE",
+                    "title": "AUDIENCE",
+                    "visible": true
+                },
+                {
+                    "id": "students",
+                    "name": "STUDENTS",
+                    "title": "STUDENTS",
+                    "visible": true
+                },
+                {
+                    "id": "taxonomy-name",
+                    "name": "TAXONOMY_NAME",
+                    "title": "TAXONOMY_NAME",
+                    "visible": true
+                },
+                {
+                    "id": "rg-name",
+                    "name": "RG_NAME",
+                    "title": "RG_NAME",
+                    "visible": true
+                },
+                {
+                    "id": "sv-name",
+                    "name": "SV_NAME",
+                    "title": "SV_NAME",
+                    "visible": true
+                },
+                {
+                    "id": "sv-description",
+                    "name": "SV_DESCRIPTION",
+                    "title": "SV_DESCRIPTION",
+                    "visible": true
+                },
+                {
+                    "id": "phone-number",
+                    "name": "PHONE_NUMBER",
+                    "title": "PHONE_NUMBER",
+                    "visible": true
+                },
+                {
+                    "id": "website",
+                    "name": "WEBSITE",
+                    "title": "WEBSITE",
+                    "visible": true
+                },
+                {
+                    "id": "email-address",
+                    "name": "EMAIL_ADDRESS",
+                    "title": "EMAIL_ADDRESS",
+                    "visible": true
+                },
+                {
+                    "id": "wheelchair-accessible",
+                    "name": "WHEELCHAIR_ACCESSIBLE",
+                    "title": "WHEELCHAIR_ACCESSIBLE",
+                    "visible": true
+                },
+                {
+                    "id": "language",
+                    "name": "LANGUAGE",
+                    "title": "LANGUAGE",
+                    "visible": true
+                },
+                {
+                    "id": "hours",
+                    "name": "HOURS",
+                    "title": "HOURS",
+                    "visible": true
+                },
+                {
+                    "id": "street-number",
+                    "name": "STREET_NUMBER",
+                    "title": "STREET_NUMBER",
+                    "visible": true
+                },
+                {
+                    "id": "city",
+                    "name": "CITY",
+                    "title": "CITY",
+                    "visible": true
+                },
+                {
+                    "id": "province",
+                    "name": "PROVINCE",
+                    "title": "PROVINCE",
+                    "visible": true
+                },
+                {
+                    "id": "postal-code",
+                    "name": "POSTAL_CODE",
+                    "title": "POSTAL_CODE",
+                    "visible": true
+                },
+                {
+                    "id": "latitude",
+                    "name": "LATITUDE",
+                    "title": "LATITUDE",
+                    "visible": true
+                },
+                {
+                    "id": "longitude",
+                    "name": "LONGITUDE",
+                    "title": "LONGITUDE",
+                    "visible": true
+                },
+                {
+                    "id": "mhsu-specific-terms-enhanced-search",
+                    "name": "MHSU_SPECIFIC_TERMS_ENHANCED_SEARCH",
+                    "title": "MHSU_SPECIFIC_TERMS_ENHANCED_SEARCH",
+                    "visible": true
+                },
+                {
+                    "id": "keyword-search-text",
+                    "name": "KEYWORD_SEARCH_TEXT",
+                    "title": "KEYWORD_SEARCH_TEXT",
+                    "visible": true
+                }
+            ]
+        }
+    ]
+}
