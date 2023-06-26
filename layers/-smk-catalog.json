@@ -138,6 +138,139 @@
                     "visible": true
                 }
             ]
+        },
+        {
+            "title": "Child and Youth Services - from WFS",
+            "dataUrl": "http://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_IMAGERY_AND_BASE_MAPS.GSR_MENTAL_HLTH_SUBSTCE_USE_SV&outputFormat=application/json&SrsName=EPSG:4326&CQL_FILTER=strToUpperCase(SERVICE_NAME)like%27%25CHILD%25%27OR%20strToUpperCase(SERVICE_NAME)like%27%25KID%25%27OR%20strToUpperCase(SERVICE_NAME)like%27%25YOUTH%25%27&sortBy=OBJECTID",
+            "id": "child-and-youth-services-from-wfs",
+            "attributes": [
+                {
+                    "id": "service-name",
+                    "name": "SERVICE_NAME",
+                    "title": "SERVICE_NAME",
+                    "visible": true
+                },
+                {
+                    "id": "description",
+                    "name": "DESCRIPTION",
+                    "title": "DESCRIPTION",
+                    "visible": true
+                },
+                {
+                    "id": "contact-phone",
+                    "name": "CONTACT_PHONE",
+                    "title": "CONTACT_PHONE",
+                    "visible": true
+                },
+                {
+                    "id": "website-url",
+                    "name": "WEBSITE_URL",
+                    "title": "WEBSITE_URL",
+                    "visible": true
+                },
+                {
+                    "id": "contact-email",
+                    "name": "CONTACT_EMAIL",
+                    "title": "CONTACT_EMAIL",
+                    "visible": true
+                },
+                {
+                    "id": "street-address",
+                    "name": "STREET_ADDRESS",
+                    "title": "STREET_ADDRESS",
+                    "visible": true
+                },
+                {
+                    "id": "locality",
+                    "name": "LOCALITY",
+                    "title": "LOCALITY",
+                    "visible": true
+                },
+                {
+                    "id": "postal-code",
+                    "name": "POSTAL_CODE",
+                    "title": "POSTAL_CODE",
+                    "visible": true
+                },
+                {
+                    "id": "keywords",
+                    "name": "KEYWORDS",
+                    "title": "KEYWORDS",
+                    "visible": true
+                },
+                {
+                    "id": "latitude",
+                    "name": "LATITUDE",
+                    "title": "LATITUDE",
+                    "visible": true
+                },
+                {
+                    "id": "longitude",
+                    "name": "LONGITUDE",
+                    "title": "LONGITUDE",
+                    "visible": true
+                },
+                {
+                    "id": "organization-name",
+                    "name": "ORGANIZATION_NAME",
+                    "title": "ORGANIZATION_NAME",
+                    "visible": true
+                },
+                {
+                    "id": "service-ref",
+                    "name": "SERVICE_REF",
+                    "title": "SERVICE_REF",
+                    "visible": true
+                },
+                {
+                    "id": "wheelchair-accessible-ind",
+                    "name": "WHEELCHAIR_ACCESSIBLE_IND",
+                    "title": "WHEELCHAIR_ACCESSIBLE_IND",
+                    "visible": true
+                },
+                {
+                    "id": "hours-of-operation",
+                    "name": "HOURS_OF_OPERATION",
+                    "title": "HOURS_OF_OPERATION",
+                    "visible": true
+                },
+                {
+                    "id": "province",
+                    "name": "PROVINCE",
+                    "title": "PROVINCE",
+                    "visible": true
+                },
+                {
+                    "id": "website-healthlinkbc-url",
+                    "name": "WEBSITE_HEALTHLINKBC_URL",
+                    "title": "WEBSITE_HEALTHLINKBC_URL",
+                    "visible": true
+                },
+                {
+                    "id": "date-updated",
+                    "name": "DATE_UPDATED",
+                    "title": "DATE_UPDATED",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": true
+                },
+                {
+                    "id": "bbox",
+                    "name": "bbox",
+                    "title": "bbox",
+                    "visible": true
+                }
+            ]
         }
     ]
 }

@@ -284,115 +284,55 @@
         },
         {
             "type": "vector",
-            "id": "child_youth_mental_health",
-            "title": "Child and Youth Mental Health Services",
+            "id": "child-and-youth-services-from-wfs",
+            "title": "Child and Youth Services - from WFS",
             "isVisible": true,
             "isQueryable": true,
-            "opacity": "0.85",
+            "opacity": 0.65,
             "minScale": null,
             "maxScale": null,
-            "titleAttribute": "SV_NAME",
+            "titleAttribute": null,
             "attributes": [
                 {
-                    "id": "mhsu-guid",
-                    "name": "MHSU_GUID",
-                    "title": "MHSU_GUID",
-                    "visible": false
-                },
-                {
-                    "id": "gpce-taxonomy-classification",
-                    "name": "GPCE_TAXONOMY_CLASSIFICATION",
-                    "title": "GPCE_TAXONOMY_CLASSIFICATION",
+                    "id": "service-name",
+                    "name": "SERVICE_NAME",
+                    "title": "SERVICE_NAME",
                     "visible": true
                 },
                 {
-                    "id": "audience",
-                    "name": "AUDIENCE",
-                    "title": "AUDIENCE",
+                    "id": "description",
+                    "name": "DESCRIPTION",
+                    "title": "DESCRIPTION",
                     "visible": true
                 },
                 {
-                    "id": "students",
-                    "name": "STUDENTS",
-                    "title": "STUDENTS",
+                    "id": "contact-phone",
+                    "name": "CONTACT_PHONE",
+                    "title": "CONTACT_PHONE",
                     "visible": true
                 },
                 {
-                    "id": "taxonomy-name",
-                    "name": "TAXONOMY_NAME",
-                    "title": "TAXONOMY_NAME",
+                    "id": "website-url",
+                    "name": "WEBSITE_URL",
+                    "title": "WEBSITE_URL",
                     "visible": true
                 },
                 {
-                    "id": "rg-name",
-                    "name": "RG_NAME",
-                    "title": "RG_NAME",
+                    "id": "contact-email",
+                    "name": "CONTACT_EMAIL",
+                    "title": "CONTACT_EMAIL",
                     "visible": true
                 },
                 {
-                    "id": "sv-name",
-                    "name": "SV_NAME",
-                    "title": "SV_NAME",
+                    "id": "street-address",
+                    "name": "STREET_ADDRESS",
+                    "title": "STREET_ADDRESS",
                     "visible": true
                 },
                 {
-                    "id": "sv-description",
-                    "name": "SV_DESCRIPTION",
-                    "title": "SV_DESCRIPTION",
-                    "visible": true
-                },
-                {
-                    "id": "phone-number",
-                    "name": "PHONE_NUMBER",
-                    "title": "PHONE_NUMBER",
-                    "visible": true
-                },
-                {
-                    "id": "website",
-                    "name": "WEBSITE",
-                    "title": "WEBSITE",
-                    "visible": true
-                },
-                {
-                    "id": "email-address",
-                    "name": "EMAIL_ADDRESS",
-                    "title": "EMAIL_ADDRESS",
-                    "visible": true
-                },
-                {
-                    "id": "wheelchair-accessible",
-                    "name": "WHEELCHAIR_ACCESSIBLE",
-                    "title": "WHEELCHAIR_ACCESSIBLE",
-                    "visible": true
-                },
-                {
-                    "id": "language",
-                    "name": "LANGUAGE",
-                    "title": "LANGUAGE",
-                    "visible": true
-                },
-                {
-                    "id": "hours",
-                    "name": "HOURS",
-                    "title": "HOURS",
-                    "visible": true
-                },
-                {
-                    "id": "street-number",
-                    "name": "STREET_NUMBER",
-                    "title": "STREET_NUMBER",
-                    "visible": true
-                },
-                {
-                    "id": "city",
-                    "name": "CITY",
-                    "title": "CITY",
-                    "visible": true
-                },
-                {
-                    "id": "province",
-                    "name": "PROVINCE",
-                    "title": "PROVINCE",
+                    "id": "locality",
+                    "name": "LOCALITY",
+                    "title": "LOCALITY",
                     "visible": true
                 },
                 {
@@ -402,116 +342,87 @@
                     "visible": true
                 },
                 {
+                    "id": "keywords",
+                    "name": "KEYWORDS",
+                    "title": "KEYWORDS",
+                    "visible": true
+                },
+                {
                     "id": "latitude",
                     "name": "LATITUDE",
                     "title": "LATITUDE",
-                    "visible": false
+                    "visible": true
                 },
                 {
                     "id": "longitude",
                     "name": "LONGITUDE",
                     "title": "LONGITUDE",
-                    "visible": false
-                },
-                {
-                    "id": "mhsu-specific-terms-enhanced-search",
-                    "name": "MHSU_SPECIFIC_TERMS_ENHANCED_SEARCH",
-                    "title": "MHSU_SPECIFIC_TERMS_ENHANCED_SEARCH",
                     "visible": true
                 },
                 {
-                    "id": "keyword-search-text",
-                    "name": "KEYWORD_SEARCH_TEXT",
-                    "title": "KEYWORD_SEARCH_TEXT",
+                    "id": "organization-name",
+                    "name": "ORGANIZATION_NAME",
+                    "title": "ORGANIZATION_NAME",
+                    "visible": true
+                },
+                {
+                    "id": "service-ref",
+                    "name": "SERVICE_REF",
+                    "title": "SERVICE_REF",
+                    "visible": true
+                },
+                {
+                    "id": "wheelchair-accessible-ind",
+                    "name": "WHEELCHAIR_ACCESSIBLE_IND",
+                    "title": "WHEELCHAIR_ACCESSIBLE_IND",
+                    "visible": true
+                },
+                {
+                    "id": "hours-of-operation",
+                    "name": "HOURS_OF_OPERATION",
+                    "title": "HOURS_OF_OPERATION",
+                    "visible": true
+                },
+                {
+                    "id": "province",
+                    "name": "PROVINCE",
+                    "title": "PROVINCE",
+                    "visible": true
+                },
+                {
+                    "id": "website-healthlinkbc-url",
+                    "name": "WEBSITE_HEALTHLINKBC_URL",
+                    "title": "WEBSITE_HEALTHLINKBC_URL",
+                    "visible": true
+                },
+                {
+                    "id": "date-updated",
+                    "name": "DATE_UPDATED",
+                    "title": "DATE_UPDATED",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": true
+                },
+                {
+                    "id": "bbox",
+                    "name": "bbox",
+                    "title": "bbox",
                     "visible": true
                 }
             ],
-            "queries": [
-                {
-                    "id": "mental-health-and-substance-use-support-query-0",
-                    "title": "Search for Services",
-                    "description": "Find a service provider near you.",
-                    "parameters": [
-                        {
-                            "id": "parameter-0",
-                            "title": "Search for:",
-                            "type": "input"
-                        }
-                    ],
-                    "predicate": {
-                        "operator": "or",
-                        "arguments": [
-                            {
-                                "operator": "contains",
-                                "arguments": [
-                                    {
-                                        "operand": "attribute",
-                                        "name": "KEYWORD_SEARCH_TEXT"
-                                    },
-                                    {
-                                        "operand": "parameter",
-                                        "id": "parameter-0"
-                                    }
-                                ]
-                            },
-                            {
-                                "operator": "contains",
-                                "arguments": [
-                                    {
-                                        "operand": "attribute",
-                                        "name": "TAXONOMY_NAME"
-                                    },
-                                    {
-                                        "operand": "parameter",
-                                        "id": "parameter-0"
-                                    }
-                                ]
-                            },
-                            {
-                                "operator": "contains",
-                                "arguments": [
-                                    {
-                                        "operand": "attribute",
-                                        "name": "SV_NAME"
-                                    },
-                                    {
-                                        "operand": "parameter",
-                                        "id": "parameter-0"
-                                    }
-                                ]
-                            },
-                            {
-                                "operator": "contains",
-                                "arguments": [
-                                    {
-                                        "operand": "attribute",
-                                        "name": "MHSU_SPECIFIC_TERMS_ENHANCED_SEARCH"
-                                    },
-                                    {
-                                        "operand": "parameter",
-                                        "id": "parameter-0"
-                                    }
-                                ]
-                            },
-                            {
-                                "operator": "contains",
-                                "arguments": [
-                                    {
-                                        "operand": "attribute",
-                                        "name": "RG_NAME"
-                                    },
-                                    {
-                                        "operand": "parameter",
-                                        "id": "parameter-0"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                }
-            ],
-            "useClustering": true,
-            "dataUrl": "./layers/child_youth_mental_health.geojson",
+            "queries": null,
+            "useClustering": false,
+            "dataUrl": "http://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_IMAGERY_AND_BASE_MAPS.GSR_MENTAL_HLTH_SUBSTCE_USE_SV&outputFormat=application/json&SrsName=EPSG:4326&CQL_FILTER=strToUpperCase(SERVICE_NAME)like%27%25CHILD%25%27OR%20strToUpperCase(SERVICE_NAME)like%27%25KID%25%27OR%20strToUpperCase(SERVICE_NAME)like%27%25YOUTH%25%27&sortBy=OBJECTID",
             "legend": {
                 "line": false,
                 "point": true
@@ -529,20 +440,15 @@
                 "marker": true,
                 "markerUrl": "assets/marker_yellow.png",
                 "markerSize": [
-                    25,
-                    40
+                    20,
+                    34
                 ],
                 "markerOffset": [
-                    12.5,
-                    40
+                    10,
+                    17
                 ]
             },
-            "legends": null,
-            "useHeatmap": false,
-            "useRaw": false,
-            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/2e469ff2-dadb-45ea-af9d-f5683a4b9465",
-            "popupTemplate": "<div>\n    <div>\n        <table border=\"0\" table-layout=\"fixed\">\n            <tbody>\n                <tr>\n                    <td colspan=\"2\"><b>{{feature.title}}</b></td>\n                </tr>\n                <tr>\n                    <td colspan=\"2\">&nbsp;</td>\n                </tr>\n                <template v-if=\"feature.properties['SV_NAME'] !== null && feature.properties['SV_NAME'] !== undefined && feature.properties['SV_NAME'] !== ''\">\n                    <tr>\n                        <td><b>Service Area:</b></td>\n                        <td>{{feature.properties['SV_NAME']}}</td>\n                    </tr>\n                    <tr>\n                        <td colspan=\"2\">&nbsp;</td>\n                    </tr>\n                </template>\n                <template v-if=\"feature.properties['TAXONOMY_NAME'] !== null && feature.properties['TAXONOMY_NAME'] !== undefined && feature.properties['TAXONOMY_NAME'] !== ''\">\n                    <tr v-if=\"feature.properties['TAXONOMY_NAME'] !== null\">\n                        <td><b>Topics:</b></td>\n                        <td>{{feature.properties['TAXONOMY_NAME']}}</td>\n                    </tr>\n                    <tr>\n                        <td colspan=\"2\">&nbsp;</td>\n                    </tr>\n                </template>\n                <template v-if=\"feature.properties['SV_DESCRIPTION'] !== null && feature.properties['SV_DESCRIPTION'] !== undefined && feature.properties['SV_DESCRIPTION'] !== ''\">\n                    <tr v-if=\"feature.properties['SV_DESCRIPTION'] !== null\">\n                        <td colspan=\"2\">{{feature.properties['SV_DESCRIPTION']}}</td>\n                    </tr>\n                </template>\n                <template v-if=\"feature.properties['STREET_NUMBER'] !== null && feature.properties['STREET_NUMBER'] !== undefined && feature.properties['STREET_NUMBER'] !== ''\">\n                <tr>\n                    <td><b>Address:</b></td>\n                    <td>{{feature.properties['STREET_NUMBER']}}<br>{{feature.properties['CITY']}}, BC<br>{{feature.properties['POSTAL_CODE']}}</td>\n                </tr>\n</template>\n                <tr>\n                    <td colspan=\"2\">&nbsp;</td>\n                </tr>\n                <template v-if=\"feature.properties['HOURS'] !== null\" && v-if=\"feature.properties['HOURS'] !== undefined\" && v-if=\"feature.properties['HOURS'] !== ''\">\n                    <tr>\n                        <td><b>Hours:</b></td>\n                        <td>{{feature.properties['HOURS']}}</td>\n                    </tr>\n                    <tr>\n                        <td colspan=\"2\">&nbsp;</td>\n                    </tr>\n                </template>\n                <tr v-if=\"feature.properties['WHEELCHAIR_ACCESSIBLE'] !== null\">\n                    <td><b>Wheelchair Access:</b></td>\n                    <td>{{feature.properties['WHEELCHAIR_ACCESSIBLE']}}</td>\n                </tr>\n                <tr>\n                    <td colspan=\"2\">&nbsp;</td>\n                </tr>\n                <tr v-if=\"feature.properties['PHONE_NUMBER'] !== null\">\n                    <td><b>Phone:</b></td>\n                    <td>{{feature.properties['PHONE_NUMBER']}}</td>\n                </tr>\n                <tr>\n                    <td colspan=\"2\">&nbsp;</td>\n                </tr>\n                <template v-if=\"feature.properties['EMAIL_ADDRESS'] !== null\" && v-if=\"feature.properties['EMAIL_ADDRESS'] !== undefined\" && v-if=\"feature.properties['EMAIL_ADDRESS'] !== ''\">\n                    <tr v-if=\"feature.properties['EMAIL_ADDRESS'] !== null\">\n                        <td><b>Email:</b></td>\n                        <td>{{feature.properties['EMAIL_ADDRESS']}}</td>\n                    </tr>\n                    <tr>\n                        <td colspan=\"2\">&nbsp;</td>\n                    </tr>\n                </template>\n                <template v-if=\"feature.properties['WEBSITE'] !== null && feature.properties['WEBSITE'] !== undefined && feature.properties['WEBSITE'] !==''\">\n                    <tr>\n                        <td colspan=\"2\"><a target=\"_blank\" v-bind:href=\"feature.properties['WEBSITE']\">Visit Service Website</a></td>\n                    </tr>\n                </template>\n            </tbody>\n        </table>\n    </div>\n</div>",
-            "scaleMax": 691
+            "legends": null
         }
     ],
     "tools": [
@@ -601,7 +507,8 @@
                     "isVisible": false
                 },
                 {
-                    "id": "child_youth_mental_health"
+                    "id": "child-and-youth-services-from-wfs",
+                    "isVisible": true
                 }
             ]
         },
