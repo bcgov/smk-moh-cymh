@@ -141,7 +141,7 @@
         },
         {
             "title": "Child and Youth Services - from WFS",
-            "dataUrl": "http://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_IMAGERY_AND_BASE_MAPS.GSR_MENTAL_HLTH_SUBSTCE_USE_SV&outputFormat=application/json&SrsName=EPSG:4326&CQL_FILTER=strToUpperCase(SERVICE_NAME)like%27%25CHILD%25%27OR%20strToUpperCase(SERVICE_NAME)like%27%25KID%25%27OR%20strToUpperCase(SERVICE_NAME)like%27%25YOUTH%25%27&sortBy=OBJECTID",
+            "dataUrl": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_IMAGERY_AND_BASE_MAPS.GSR_MENTAL_HLTH_SUBSTCE_USE_SV&outputFormat=application/json&SrsName=EPSG:4326&CQL_FILTER=strToUpperCase(SERVICE_NAME)like%27%25CHILD%25%27OR%20strToUpperCase(SERVICE_NAME)like%27%25KID%25%27OR%20strToUpperCase(SERVICE_NAME)like%27%25YOUTH%25%27&sortBy=OBJECTID",
             "id": "child-and-youth-services-from-wfs",
             "attributes": [
                 {
