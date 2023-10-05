@@ -10,5 +10,6 @@ col = "AUDIENCE"
 val = "Children and Youth"
 # %%
 
+
 out = data[getattr(data, col)==val]
 out.to_file(os.path.join(outdir, "child_youth_mental_health.geojson"), driver="GeoJSON")
